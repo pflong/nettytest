@@ -11,6 +11,7 @@
     <modules>
         <module>nettytest-client</module>
         <module>nettytest-server</module>
+        <module>heartbeat</module>
     </modules>
 
     <dependencies>
