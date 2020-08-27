@@ -14,3 +14,16 @@ cd nettytest-client
 
 mvn exec:java -Dexec.mainClass="com.iconyu.nettytest.client.EchoClient" -Dexec.args="127.0.0.1 9999"
 ```
+
+
+### heartbeat demo
+
+> https://segmentfault.com/a/1190000006931568
+
+ReconnectClient 是能够自动重连的 client
+
+```bash
+mvn compile
+
+mvn exec:java -Dexec.mainClass="com.iconyu.nettytest.heartbeat.Server"
+```
